@@ -9,12 +9,11 @@ html, body {
 body {
   background-image: url("images/background2.JPG");
   background-size: cover;
-
 }
 
 h6 {
   font-family: arial;
-  font-size: 60px;
+  font-size: 80px;
   
   -webkit-text-stroke: 2px #30d533;
   color: #823e11;
@@ -26,7 +25,7 @@ h6 {
 
 p {
   font-family: courier;
-  font-size: 35px;
+  font-size: 45px;
   
   text-shadow: 2px 2px 0px black;
   color: #30d533;
@@ -34,7 +33,7 @@ p {
 
 a {
   font-family: arial;
-  font-size: 35px;
+  font-size: 45px;
   
   -webkit-text-stroke: 1px #30d533;
   color: #823e11;
@@ -90,7 +89,7 @@ td {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 55px;
 }
 
 .topnav a:hover {
@@ -112,7 +111,7 @@ td {
 }
 
 .smalltext {
-	font-size: 15px;
+	font-size: 25px;
 }
 
 .center {
