@@ -7,16 +7,18 @@ html, body {
 }
 
 body {
-  background-image: url("images/background.JPG");
+  background-image: url("images/background2.JPG");
+  background-size: cover;
 
 }
 
 h6 {
-  font-family: courier;
+  font-family: arial;
   font-size: 60px;
   
-  text-shadow: 0px 0px 5px #50FF42;
-  color: #361F0E;
+  -webkit-text-stroke: 2px #30d533;
+  color: #823e11;
+  text-shadow: 4px 4px 0px black;
   
   padding: 0;
   margin: 0;
@@ -26,17 +28,31 @@ p {
   font-family: courier;
   font-size: 35px;
   
-  text-shadow: 0px 0px 5px #50FF42;
-  color: #FFE063;
+  text-shadow: 2px 2px 0px black;
+  color: #30d533;
 }
 
 a {
-  font-family: courier;
+  font-family: arial;
   font-size: 35px;
+  
+  -webkit-text-stroke: 1px #30d533;
+  color: #823e11;
+  text-shadow: 4px 4px 0px black;
+  
+  text-decoration: none;
 }
 
 td {
+  font-family: arial;	
+  
+  -webkit-text-stroke: 1px #30d533;
+  color: #823e11;
+  text-shadow: 4px 4px 0px black;
+
   vertical-align: top;
+  text-align: center;
+  font-size: 30px;
 }
 
 #header {
@@ -71,7 +87,6 @@ td {
 
 .topnav a {
   float: left;
-  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -79,12 +94,11 @@ td {
 }
 
 .topnav a:hover {
-  color: white;
+  color: red;
 }
 
 .topnav a.active {
-  background-color: black;
-  color: white;
+  background-image: url("images/lynch.png");
 }
 
 .stuff {
